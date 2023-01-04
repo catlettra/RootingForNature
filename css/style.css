@@ -52,13 +52,14 @@ h3 {
 
 .btn {
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .btn-primary {
-    --bs-btn-color: #fff;
+    --bs-btn-color: var(--bs-bg-dark-green);
     --bs-btn-bg: var(--bs-custom-primary);
     --bs-btn-border-color: none;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: var(--bs-bg-dark-green);
     --bs-btn-hover-bg: var(--bs-custom-primary-hover);
     --bs-btn-hover-border-color: none;
     --bs-btn-focus-shadow-rgb: 49,132,253;
