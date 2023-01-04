@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inconsolata:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 @font-face {
     font-family: ProcrastinatingPixie;
@@ -24,6 +24,36 @@
     --bs-link-hover-color: #fff;
 }
 
+h1 {
+    font-family: 'Audiowide';
+    font-size: 3.65rem;
+}
+
+h2 {
+    font-family: 'Audiowide';
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Audiowide';
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+}
+
+.pretitle {
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: var(--bs-custom-primary);
@@ -32,6 +62,7 @@
     --bs-btn-hover-bg: var(--bs-custom-primary-hover);
     --bs-btn-hover-border-color: none;
     --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-bg: var(--bs-custom-primary-hover);
 }
 
 .navbar {
@@ -49,13 +80,10 @@
     --bs-nav-link-hover-color: var(--bs-btn-color);
 }
 
-body {
-    font-size: 1rem;
-}
-
 footer{
     background-color: #252524;
     padding: 5em 0em 0em 1em;
+    font-size: 0.8rem
 }
 
 .rfn{
