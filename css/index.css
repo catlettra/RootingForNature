@@ -9,6 +9,26 @@
 
 .hero-text {
     font-size: 1.87rem;
-    width: 60%;
+}
+
+/* sm breackpoint */
+@media (max-width: 575.98px) {
+    .hero-text {
+        font-size: 1rem;
+    }
+}
+
+.home-w-titles {
+    font-size: 6em;
+    font-family: 'ProcrastinatingPixie';
+}
+.home-w-titles:hover {
+    text-shadow: 0 0 0.3em #F59927, 0 0 0.3em #F59927, 0 0 0.3em #F59927;
+}
+
+@media (max-width: 767px){
+    .home-w-titles {
+        font-size: 2em;
+    }
 }
 
