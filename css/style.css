@@ -124,6 +124,12 @@ footer a {
 
 @media (max-width: 767px){
     .desktop-display{
-        display: none;
+        display: none !important;
     }
+}
+
+.light-green-bg {
+    background-color: var(--bs-bg-light-green);
+    padding: 3em 0em;
+    width: 100%;
 }
