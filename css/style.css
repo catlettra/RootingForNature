@@ -149,3 +149,23 @@ footer a {
     padding: 4em 0em;
     color: var(--bs-bg-dark-green);
 }
+
+.divHiveImg {
+    position:relative; 
+}
+
+.hiveRight {
+    position:absolute; 
+    left:95% 
+}
+
+.hiveLeft {
+    position:absolute; 
+    left:5% 
+}
+
+.divHiveImg img { 
+    margin-left:-50%; 
+    margin-top:-30%; 
+    width:150px
+}
