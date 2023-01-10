@@ -166,6 +166,12 @@ footer a {
 
 .divHiveImg img { 
     margin-left:-50%; 
-    margin-top:-30%; 
+    margin-top:-40%; 
     width:150px
+}
+
+@media (max-width: 767px){
+    .divHiveImg {
+        display: none; 
+    }
 }
