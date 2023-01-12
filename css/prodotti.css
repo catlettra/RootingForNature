@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.container-fluid {
+    padding: 0;
+}
+
+.header-prodotti {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-25 {
+    margin-bottom: 25px;
+}
+
+.contattaci {
+    background-color: var(--bs-light-body-color);
+}
+
+.img-background1 {
+    background-image: url("/img/img-bg-rfn01.jpg");
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:992px) {
+    .d-sm-md-none {
+        display: none;
+    }
+
+    .rfn01-specifiche {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .icon-contattaci {
+        width: 8em;
+    }
+
+    .wrap-contattaci {
+        background-color: blue;
+    }
+
+    .title-contattaci {
+        background-color: darkgoldenrod;
+    }
+
+
+    .dark-text {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .justify-content-end {
+    display: flex;
+    justify-content: end;
+    }
+
+    .rfn01-intro, .rfn02-intro {
+        height: 46em;
+        display: flex;
+    }
+
+    .rfn01-specifiche {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .wrap-contattaci {
+        height: 733px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
