@@ -152,6 +152,7 @@ footer a {
 
 .divHiveImg {
     position:relative; 
+    overflow: hidden;
 }
 
 .hiveRight {
