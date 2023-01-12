@@ -3,6 +3,7 @@
 @import url('about.css');
 @import url('blog.css');
 @import url('dicono.css');
+@import url('prodotti.css');
 @import url('mission.css');
 @import url('articoli.css');
 
@@ -15,6 +16,7 @@
 
     --bs-custom-primary: #87B153;
     --bs-custom-primary-hover: #a4d666;
+    --bs-secondary-custom-color: #F59927;
 
     --bs-bg-dark-green: #2E302B;
     --bs-bg-light-green: #3A3D34;
@@ -28,11 +30,13 @@
     --bs-body-font-family: 'Poppins';
     --bs-link-color: var(--bs-light-body-color);
     --bs-link-hover-color: #fff;
+    --bs-secondary-rgb: var(--bs-secondary-custom-color);
 }
 
 h1 {
     font-family: 'Audiowide';
     font-size: 3.65rem;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -53,7 +57,27 @@ h3 {
 .pretitle {
     font-family: 'Inconsolata';
     font-size: 1.5rem;
+    color: var(--bs-custom-primary)
+}
+
+.secondary-color {
+    color: var(--bs-secondary-rgb);
+}
+
+.dark-text {
+    color: var(--bs-bg-dark-green)
+}
+
+.uppercase {
     text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
+ }
+
+.body-strong {
+    font-weight: bold;
 }
 
 .btn {
