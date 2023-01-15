@@ -57,9 +57,14 @@
     border-radius: 5px;
 }
 
-.home-section-icon {
+.home-section-icon-height {
     height: 9em;
     margin: 2em
+}
+
+.home-section-icon-width {
+    margin: 2em;
+    width: 16em;
 }
 
 img.extended-hive {
