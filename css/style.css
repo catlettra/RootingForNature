@@ -72,14 +72,6 @@ h3 {
     text-transform: uppercase;
 }
 
-.italic {
-    font-style: italic;
- }
-
-.body-strong {
-    font-weight: bold;
-}
-
 .btn {
     text-transform: uppercase;
     font-weight: 600;
