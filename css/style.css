@@ -135,6 +135,15 @@ footer a {
     .desktop-display{
         display: none !important;
     }
+
+    .divHiveImg {
+        display: none;
+    }
+
+    .row {
+        margin-right: 0em;
+        margin-left: 0em;
+    }
 }
 
 .light-green-bg {
