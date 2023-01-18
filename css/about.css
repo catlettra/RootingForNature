@@ -1,0 +1,10 @@
+.bg-landing{
+    background-image: url(../img/about-landing.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-fluid{
+    padding: 0;
+}
