@@ -44,15 +44,15 @@
             <!-- rows with numbers-->
             <div class="row justify-content-center">
                 <div class="col-md-4 text-center">
-                    <p>150.985 semi piantati</p>
+                    <p class="inconsolata_custom">150.985 semi piantati</p>
                 </div>
                
                 <div class="col-md-4 text-center">
-                    <p>202.667 visitatori oggi</p>
+                    <p class="inconsolata_custom">202.667 visitatori oggi</p>
                 </div>
 
                 <div class="col-md-4 text-center">
-                    <p>40% di tempo risparmiato</p>
+                    <p class="inconsolata_custom">40% di tempo risparmiato</p>
                 </div>
             </div>         
        
@@ -65,7 +65,70 @@
         <!-- CARDS 2 righe con 3 card each -->
 
         <!-- FORM -->
+        <div class="row mb-4 justify-content-center">
+            
+            <div class="col-md-7">
+                <h2 class="h2 text-center my-4 secondary-color">COMPILA IL FORM</h2>       
+                <p class="text-center w-responsive mx-auto mb-5">Contattaci direttamente compilando l'apposito form per ottenere un preventivo. Il nostro team è pronto a guidarti in un percorso verso la nostra realtà ecosostenibile, caratterizzata dalle tecnologie più all'avanguardia pensate apposta per te o per la tua azienda.</p> 
+            </div>
 
+            <div class="row justify-content-center">
+
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        
+                        <div class="row">
+        
+                            <div class="col-md-5">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Nome</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+        
+                            <div class="col-md-5">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+        
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-md-10">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Oggetto:</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+        
+                            <div class="col-md-10">
+        
+                                <div class="md-form">
+                                    <label for="message">Messaggio:</label>
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control message-text md-textarea"></textarea>
+                                </div>
+        
+                            </div>
+                        </div>
+        
+                    </form>
+        
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Invia</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+            </div>
+        
+        </div>
+
+
+        <!-- FORM -->
         <footer id="footer">            
         </footer>
 

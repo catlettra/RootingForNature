@@ -1,3 +1,8 @@
+.inconsolata_custom {
+    font-family: 'Inconsolata';
+    font-size: 1.15rem;
+}
+
 .bg-landing{
     background-image: url(../img/about-landing.jpg);
     background-size: cover;
@@ -7,4 +12,14 @@
 
 .container-fluid{
     padding: 0;
+}
+
+.form-control{
+    background-color: var(--bs-bg-light-green) !important;
+    /* border: 1px solid var(--bs-light-body-colorigt); non va con sta variabile aaaaa */
+    border: 1px solid #F2EACB;
+}
+
+.message-text{
+    height: 320px;
 }
