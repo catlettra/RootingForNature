@@ -21,60 +21,81 @@
 
         <!-- landing page uguale a blog -->
 
-       <div class="container-fluid bg-landing">
-
-
         <section>
-        <!-- DESKTOP -->
-        <div class="container">
-            <div class="row">
-
-                <div class="col text-center">
-                    <h1 class="secondary-color">ABOUT</h1>
+            <div class="container-fluid bg-landing d-flex justify-content-center align-items-center flex-column">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h1 class="secondary-color">ABOUT</h1>
+                        <p>RootingforNature vuole intervenire al fine di proteggere e migliorare il nostro ambiente facendo ricorso all'aiuto della tecnologia.</p>
+                    </div>
                 </div>
-
+    
+                <!-- rows with numbers-->
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-center">
+                        <p class="inconsolata_custom">150.985 semi piantati</p>
+                    </div>
+                   
+                    <div class="col-md-4 text-center">
+                        <p class="inconsolata_custom">202.667 visitatori oggi</p>
+                    </div>
+    
+                    <div class="col-md-4 text-center">
+                        <p class="inconsolata_custom">40% di tempo risparmiato</p>
+                    </div>
+                </div>         
             </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <p>RootingforNature vuole intervenire al fine di proteggere e migliorare il nostro ambiente facendo ricorso all'aiuto della tecnologia.</p>
-                </div>
-            </div>
-
-            <!-- rows with numbers-->
-            <div class="row justify-content-center">
-                <div class="col-md-4 text-center">
-                    <p class="inconsolata_custom">150.985 semi piantati</p>
-                </div>
-               
-                <div class="col-md-4 text-center">
-                    <p class="inconsolata_custom">202.667 visitatori oggi</p>
-                </div>
-
-                <div class="col-md-4 text-center">
-                    <p class="inconsolata_custom">40% di tempo risparmiato</p>
-                </div>
-            </div>         
-       
-        </div>
+        </section>
 
         <!-- CHI SIAMO -->
 
         <!-- MOTIVI -->
-        
+        <section class="container-fluid">
+            <div class="container chi-siamo">
+                <div class="row justify-content-space-between align-items-center">
+                        
+                    <div class="col-md-6">
+                        <h2 class="d-none d-md-block secondary-color">CHI SIAMO </h2>
+                        <p>
+                            Il nostro team è composto da sei studenti che frequentano il secondo anno del Corso di Teoria e Tecnologia della Comunicazione all’ Università degli Studi di Milano-Bicocca. Proveniamo da un background di studi differente che spazia tra l’informatica, la comunicazione, la psicologia e il design. La nostra aspirazione è quella di produrre droni che possano contrastare il fenomeno della desertificazione e delle deforestazione  per mezzo della piantagione di alberi e impollinazione. RootingforNature ha come scopo quello di  sensibilizzare sul tema. Siamo convinte che collaborando tutti insieme e coinvolgendo più persone possibili riusciremo a raggiungere il nostro scopo: un mondo più ecologico e più rispettoso nei confronti della natura.
+                        </p>
+                    </div>
+                        
+                        
+                    <div class="col-md-5 d-none d-md-block">
+                        <div class="row">
+                            <div class="col">
+                                <img class="img-fluid" src="img/chi-siamo1.jpg" alt="people joining hands">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <img class="img-fluid" src="img/chi-siamo2.jpg" alt="people cheering in front of a sunset">
+                            </div>
+                        </div>
+                    </div>
+                       
+                    
+                </div>
+                
+            </div>
+        </section>
+
+
         <!-- CARDS 2 righe con 3 card each -->
 
         <!-- FORM -->
         <div class="row mb-4 justify-content-center">
             
-            <div class="col-md-7">
+            <div class="col-md-7 mx-auto">
                 <h2 class="h2 text-center my-4 secondary-color">COMPILA IL FORM</h2>       
                 <p class="text-center w-responsive mx-auto mb-5">Contattaci direttamente compilando l'apposito form per ottenere un preventivo. Il nostro team è pronto a guidarti in un percorso verso la nostra realtà ecosostenibile, caratterizzata dalle tecnologie più all'avanguardia pensate apposta per te o per la tua azienda.</p> 
             </div>
 
             <div class="row justify-content-center">
 
-                <div class="col-md-9 mb-md-0 mb-5">
+                <div class="col-md-10 mb-md-0 mb-5">
                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
         
                         <div class="row">
@@ -126,15 +147,14 @@
             </div>
         
         </div>
-
-
         <!-- FORM -->
+
         <footer id="footer">            
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="js/header-footer.js"></script>
     </body>
-    <script src="js/header-footer.js"></script>
 
   
 </html>
