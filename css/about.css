@@ -28,3 +28,12 @@
 section {
     padding: 0em 0em;
 }
+
+.images-radius{
+    border-radius: 5px;
+}
+
+/* Non ho visto primary-color nel file style.css e non so se va creato ma nel mentre lo userò*/
+.primary-color{
+    color: var(--bs-custom-primary);
+}
