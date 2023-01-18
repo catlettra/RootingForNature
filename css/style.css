@@ -72,6 +72,19 @@ h3 {
     text-transform: uppercase;
 }
 
+.secondary-color {
+    color: var(--bs-secondary-rgb);
+}
+
+section {
+    padding: 4em 0em;
+}
+
+.section-lg-bg {
+    padding: 0em;
+}
+
+
 .btn {
     text-transform: uppercase;
     font-weight: 600;
@@ -124,4 +137,65 @@ footer a {
 .footer-icon {
     height: 2em;
     padding-right: 1em;
+}
+
+@media (min-width: 768px){
+    .mobile-display{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .desktop-display{
+        display: none !important;
+    }
+
+    .divHiveImg {
+        display: none;
+    }
+
+    .row {
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+}
+
+.light-green-bg {
+    background-color: var(--bs-bg-light-green);
+    width: 100%;
+    padding: 4em 0em;
+}
+
+.light-bg {
+    background-color: var(--bs-light-body-color);
+    width: 100%;
+    padding: 4em 0em;
+    color: var(--bs-bg-dark-green);
+}
+
+.divHiveImg {
+    position:relative; 
+    overflow: hidden;
+}
+
+.hiveRight {
+    position:absolute; 
+    left:95% 
+}
+
+.hiveLeft {
+    position:absolute; 
+    left:5% 
+}
+
+.divHiveImg img { 
+    margin-left:-50%; 
+    margin-top:-40%; 
+    width:150px
+}
+
+@media (max-width: 767px){
+    .divHiveImg {
+        display: none; 
+    }
 }
