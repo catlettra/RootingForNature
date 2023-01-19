@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inconsolata:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('index.css');
+@import url('about.css');
+@import url('blog.css');
+@import url('dicono.css');
+@import url('mission.css');
+@import url('articoli.css');
+
+@font-face {
+    font-family: ProcrastinatingPixie;
+    src: url(../font/ProcrastinatingPixie.ttf);
+}
+
+:root {
+
+    --bs-custom-primary: #87B153;
+    --bs-custom-primary-hover: #a4d666;
+    --bs-secondary-custom-color: #F59927;
+
+    --bs-bg-dark-green: #2E302B;
+    --bs-bg-light-green: #3A3D34;
+
+    --bs-light-body-color: #F2EACB;
+
+    --bs-primary: var(--bs-custom-primary);
+    --bs-body-bg: var(--bs-bg-dark-green);
+    --bs-body-color: var(--bs-light-body-color);
+    --bs-border-radius: 5px;
+    --bs-body-font-family: 'Poppins';
+    --bs-link-color: var(--bs-light-body-color);
+    --bs-link-hover-color: #fff;
+    --bs-secondary-rgb: var(--bs-secondary-custom-color);
+}
+
+h1 {
+    font-family: 'Audiowide';
+    font-size: 3.65rem;
+}
+
+h2 {
+    font-family: 'Audiowide';
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Audiowide';
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+}
+
+.pretitle {
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.secondary-color {
+    color: var(--bs-secondary-rgb);
+}
+
+section {
+    padding: 4em 0em;
+}
+
+.section-lg-bg {
+    padding: 0em;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-primary {
+    --bs-btn-color: var(--bs-bg-dark-green);
+    --bs-btn-bg: var(--bs-custom-primary);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: var(--bs-bg-dark-green);
+    --bs-btn-hover-bg: var(--bs-custom-primary-hover);
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-bg: var(--bs-custom-primary-hover);
+}
+
+.navbar {
+    --bs-navbar-color: var(--bs-light-body-color);
+    --bs-navbar-brand-hover-color: #fff;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar-brand{
+    color: var(--bs-light-body-color);
+    font-family: 'ProcrastinatingPixie';
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--bs-btn-color);
+}
+
+footer{
+    background-color: #252524;
+    padding: 5em 0em 0em 1em;
+    font-size: 0.8rem
+}
+
+.rfn{
+    font-family: 'ProcrastinatingPixie';
+}
+
+.footer-container {
+    height: 15em;    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-icon {
+    height: 2em;
+    padding-right: 1em;
+}
+
+@media (min-width: 768px){
+    .mobile-display{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    .desktop-display{
+        display: none !important;
+    }
+
+    .divHiveImg {
+        display: none;
+    }
+
+    .row {
+        margin-right: 0em;
+        margin-left: 0em;
+    }
+}
+
+.light-green-bg {
+    background-color: var(--bs-bg-light-green);
+    width: 100%;
+    padding: 4em 0em;
+}
+
+.light-bg {
+    background-color: var(--bs-light-body-color);
+    width: 100%;
+    padding: 4em 0em;
+    color: var(--bs-bg-dark-green);
+}
+
+.divHiveImg {
+    position:relative; 
+    overflow: hidden;
+}
+
+.hiveRight {
+    position:absolute; 
+    left:95% 
+}
+
+.hiveLeft {
+    position:absolute; 
+    left:5% 
+}
+
+.divHiveImg img { 
+    margin-left:-50%; 
+    margin-top:-40%; 
+    width:150px
+}
+
+@media (max-width: 767px){
+    .divHiveImg {
+        display: none; 
+    }
+}
