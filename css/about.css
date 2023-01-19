@@ -25,7 +25,7 @@
 }
 
 /* per qualche motivo in style.css c'è una classe che modifica direttamente la keyword section e mi dava problemi*/
-section {
+.section-about {
     padding: 0em 0em;
 }
 
