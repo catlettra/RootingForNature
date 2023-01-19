@@ -102,7 +102,7 @@ section {
     --bs-nav-link-hover-color: var(--bs-btn-color);
 }
 
-footer{
+footer{width:100%;
     background-color: #252524;
     padding: 5em 0em 0em 1em;
     font-size: 0.8rem

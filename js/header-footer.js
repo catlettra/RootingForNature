@@ -6,11 +6,11 @@ const htmlMenu = `<div class="container">
 </button>
 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   <div class="navbar-nav">
-    <a class="nav-link" aria-current="page" href="1_mission.html">Mission</a>
-    <a class="nav-link" href="2_prodotti.html">Prodotti</a>
-    <a class="nav-link" href="3_about.html">About</a>
-    <a class="nav-link" href="4_blog.html">Blog</a>
-    <a class="nav-link" href="5_dicono-di-noi.html">Dicono di noi</a>
+    <a class="nav-link" aria-current="page" href="1_mission.html">MISSION</a>
+    <a class="nav-link" href="2_prodotti.html">PRODOTTI</a>
+    <a class="nav-link" href="3_about.html">ABOUT</a>
+    <a class="nav-link" href="4_blog.html">BLOG</a>
+    <a class="nav-link" href="5_dicono-di-noi.html">DICONO DI NOI</a>
   </div>
 </div>
 </div>`;
