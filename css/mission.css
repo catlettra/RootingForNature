@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+
+.container-fluid {
+    padding: 0;
+}
+
+.header-mission {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockquote-footer {
+    color: #f2eacba5;
+}
+
+.justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-25 {
+    margin-bottom: 25px;
+}
+
+.contattaci {
+    background-color: var(--bs-light-body-color);
+}
+
+.header-rfn {
+    position: relative;
+}
+
+
+
+@media screen and (max-width:992px) {
+
+    .header-rfn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-rfn {
+        order: 2;
+    }
+
+    .icon-contattaci {
+        width: 8em;
+    }
+
+    .dark-text {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:993px) {
+
+    .d-lg-none {
+        display: none;
+    }
+
+    .justify-content-end {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .wrap-contattaci {
+        height: 733px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inconsolata:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('index.css');
+@import url('about.css');
+@import url('blog.css');
+@import url('dicono.css');
+@import url('prodotti.css');
+@import url('mission.css');
+@import url('articoli.css');
+
+@font-face {
+    font-family: ProcrastinatingPixie;
+    src: url(../font/ProcrastinatingPixie.ttf);
+}
+
+:root {
+
+    --bs-custom-primary: #87B153;
+    --bs-custom-primary-hover: #a4d666;
+    --bs-secondary-custom-color: #F59927;
+
+    --bs-bg-dark-green: #2E302B;
+    --bs-bg-light-green: #3A3D34;
+
+    --bs-light-body-color: #F2EACB;
+
+    --bs-primary: var(--bs-custom-primary);
+    --bs-body-bg: var(--bs-bg-dark-green);
+    --bs-body-color: var(--bs-light-body-color);
+    --bs-border-radius: 5px;
+    --bs-body-font-family: 'Poppins';
+    --bs-link-color: var(--bs-light-body-color);
+    --bs-link-hover-color: #fff;
+    --bs-secondary-rgb: var(--bs-secondary-custom-color);
+}
+
+h1 {
+    font-family: 'Audiowide';
+    font-size: 3.65rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Audiowide';
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Audiowide';
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+}
+
+.pretitle {
+    font-family: 'Inconsolata';
+    font-size: 1.5rem;
+    color: var(--bs-custom-primary)
+}
+
+.secondary-color {
+    color: var(--bs-secondary-rgb);
+}
+
+.dark-text {
+    color: var(--bs-bg-dark-green)
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-primary {
+    --bs-btn-color: var(--bs-bg-dark-green);
+    --bs-btn-bg: var(--bs-custom-primary);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: var(--bs-bg-dark-green);
+    --bs-btn-hover-bg: var(--bs-custom-primary-hover);
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-bg: var(--bs-custom-primary-hover);
+}
+
+.navbar {
+    --bs-navbar-color: var(--bs-light-body-color);
+    --bs-navbar-brand-hover-color: #fff;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar-brand{
+    color: var(--bs-light-body-color);
+    font-family: 'ProcrastinatingPixie';
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: var(--bs-btn-color);
+}
+
+.immagine-alberi{background-size: cover; background-repeat: no-repeat}
+.immagine2{background-size: cover; background-repeat: no-repeat}
+
+footer{
+    background-color: #252524;
+    padding: 5em 0em 0em 1em;
+    font-size: 0.8rem
+}
+
+.rfn{
+    font-family: 'ProcrastinatingPixie';
+}
+
+.footer-container {
+    height: 15em;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.footer-icon {
+    height: 2em;
+    padding-right: 1em;
+}
