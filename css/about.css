@@ -1,7 +1,8 @@
 .inconsolata_custom {
     font-family: 'Inconsolata';
-    font-size: 1.15rem;
+    font-size: 1.13rem;
     white-space: nowrap;
+    text-transform: uppercase;
 }
 
 .bg-landing{
@@ -36,4 +37,9 @@
 .justify-content-space-between{
     display: flex;
     justify-content: space-between;
+}
+
+/* the leaves next to h2 are smaller than the one above the home h1, but instead of downloading another pic i just scaled that one and it works just fine*/
+.leaf-h2{
+    transform: scale(0.9)
 }
