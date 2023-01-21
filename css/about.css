@@ -43,3 +43,15 @@
 .leaf-h2{
     transform: scale(0.9)
 }
+
+.card-border{
+    border-radius: 10px;
+}
+
+.card-bg{
+    background-color: var( --bs-light-body-color);
+}
+
+.dark-text{
+    color: var(--bs-bg-dark-green);
+}

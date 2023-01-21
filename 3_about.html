@@ -23,8 +23,13 @@
             <div class="container-fluid bg-landing d-flex justify-content-center flex-column mb-5 pb-5">
                 <div class="row justify-content-center">
                     <div class="col-md-8 mb-5 pb-5">
-                        <h1 class="secondary-color text-center mb-5 pb-3">ABOUT</h1>
-                        <p>RootingforNature vuole intervenire al fine di proteggere e migliorare il nostro ambiente facendo ricorso all'aiuto della tecnologia. Scopri chi siamo!</p>
+                        <h1 class="secondary-color text-center mb-5 pb-3 d-block">ABOUT</h1>
+
+                          <!-- visible with all big screens -->
+                        <p class="d-md-block d-sm-none">RootingforNature vuole intervenire al fine di proteggere e migliorare il nostro ambiente facendo ricorso all'aiuto della tecnologia. Scopri chi siamo!</p>
+                       
+                        <!-- only show on mobile -->
+                        <p class="d-md-none">Scopri chi siamo e come intendiamo proteggere e migliorare il nostro ambiente grazie alla tecnologia.</p>
                     </div>
                 </div>
     
@@ -55,12 +60,18 @@
                         <p class="pretitle primary-color">INTRODUZIONE</p>
 
                         <div class="d-flex justify-content-start">
-                            <span class="leaf-h2 leaf-title"> <img src="img/leaf-vector.png" alt="icona di foglia"/></span>
+                            <span class="leaf-h2 leaf-title d-none d-md-block"> <img src="img/leaf-vector.png" alt="icona di foglia"/></span>
                             <h2 class="secondary-color">Chi siamo</h2>
                         </div>
 
-                        <p>
-                            Il nostro team &egrave;composto da sei studenti che frequentano il secondo anno del Corso di Teoria e Tecnologia della Comunicazione all&apos;Università degli Studi di Milano-Bicocca. Proveniamo da un background di studi differente che spazia tra l&apos;informatica, la comunicazione, la psicologia e il design. La nostra aspirazione &egrave; quella di produrre droni che possano contrastare il fenomeno della desertificazione e delle deforestazione  per mezzo della piantagione di alberi e impollinazione. RootingforNature ha come scopo quello di  sensibilizzare sul tema. Siamo convinte che collaborando tutti insieme e coinvolgendo pi&ugrave; persone possibili riusciremo a raggiungere il nostro scopo: un mondo pi&ugrave; ecologico e pi&ugrave; rispettoso nei confronti della natura.
+                        <!-- visible with all big screens -->
+                        <p class="d-md-block d-sm-none d-none">
+                            Il nostro team è composto da sei studenti che frequentano il secondo anno del Corso di Teoria e Tecnologia della Comunicazione all&apos; Universit&agrave; degli Studi di Milano-Bicocca. Proveniamo da un background di studi differente che spazia tra l&apos;informatica, la comunicazione, la psicologia e il design. Abbiamo pensato che i droni  potrebbero rivelarsi ottimi mezzi per contrastare il fenomeno della desertificazione e delle deforestazione attraverso la piantagione di alberi e impollinazione. RootingForNature ha come scopo quello di  sensibilizzare sul tema. Siamo convintə che collaborando tuttə insieme e coinvolgendo più persone possibili riusciremo a raggiungere il nostro scopo: un mondo più ecologico e più rispettoso nei confronti della natura.
+                        </p>
+
+                        <!-- only show on mobile -->
+                        <p class="d-md-none"> 
+                            Siamo sei studenti del  Corso di Teoria e Tecnologia della Comunicazione all&apos; Università degli Studi di Milano-Bicocca. Abbiamo pensato di impiegare droni in grado di piantare alberi ed impollinare per contrastare il fenomeno della desertificazione e della deforestazione.Lo scopo di RootingForNature non è solamente quello di sensibilizzare più persone sul tema, ma anche di cambiare la situazione attuale.
                         </p>
                     </div>
                         
@@ -95,12 +106,18 @@
                         <p class="pretitle primary-color">Perch&egrave; abbiamo scelto questo argomento?</p>
 
                         <div class="d-flex justify-content-start">
-                            <span class="leaf-h2 leaf-title"> <img src="img/leaf-vector.png" alt="icona di foglia"/></span>
+                            <!-- leaf icon needs to be hidden on mobile/sm-->
+                            <span class="leaf-h2 leaf-title d-none d-md-block"> <img src="img/leaf-vector.png" alt="icona di foglia"/></span>
                             <h2 class="secondary-color">I nostri motivi</h2>
                         </div>
-                        <p>
-                            La nostra idea riguarda la produzione di droni che  grazie all&apos;uso della tecnologia e dell&apos;intelligenza artificiale, saranno in grado di aiutare l&apos;impollinazione e piantare alberi.
-                            I droni nell&apos;agricoltura possono rappresentare un vantaggio enorme e fornire un contributo importante. Essi sono in grado di sorvolare sulle coltivazioni e segnalare quali piante hanno bisogno di maggiore nutrimento o se hanno bisogno di cure. Tutto questo &egrave; reso possibile grazie ai loro sensori sofisticati. Secondo un&apos;azienda statunitense i droni sarebbero degli ottimi sostituti degli insetti impollinatori. A livello globale la drastica riduzione in certe parti del globo di insetti rischia di mettere a repentaglio la biodiversit&agrave;.Quindi i nostri droni potrebbero diventare degli ottimi alleati della natura: il nostro obiettivo &egrave; quello di lottare, con l&apos;aiuto della tecnologia, per salvaguardare il nostro pianeta
+                        <p class="d-md-block d-sm-none d-none">
+                            La nostra idea riguarda la produzione di droni che, grazie all&apos;uso della tecnologia e dell&apos;intelligenza artificiale, saranno in grado di supportare l&apos;impollinazione delle api e piantare nuovi alberi.
+                            I droni nell&apos;agricoltura possono rappresentare un vantaggio enorme e fornire un contributo importante: essi sono in grado di sorvolare sulle coltivazioni e segnalare quali piante hanno bisogno di maggiore nutrimento o se hanno bisogno di cure. Tutto questo è reso possibile grazie ai loro sensori sofisticati.La drastica riduzione in certe parti del globo di insetti rischia di mettere a repentaglio la biodiversità, quindi i nostri droni potrebbero diventare degli ottimi alleati della natura ed alleggerire il carico di lavoro per le api, la cui popolazione è anche purtroppo drasticamente calata negli anni recenti.
+                            Il nostro obiettivo è quello di lottare, con l&apos;aiuto della tecnologia, per salvaguardare il nostro pianeta.
+                        </p>
+
+                        <p class="d-md-block d-md-none">
+                            Il nostro pianeta ha bisogno di aiuto e la tecnologia può aiutarci. I nostri droni potrebbero diventare degli ottimi alleati della natura nella salvaguardia della flora del nostro pianeta. Essi possono infatti rivelarsi molto vantaggiosi: grazie ai loro sensori sofisticati possono sorvolare sulle coltivazioni e segnalare quali piante hanno bisogno di maggiore nutrimento o di cure. Inoltre, impollinando alleggerirebbero il carico di lavoro per le api.
                         </p>
                     </div>
 
@@ -133,6 +150,27 @@
                     <h2 class="text-center secondary-color mt-5 mb-5">IL NOSTRO TEAM</h2>   
                 </div>
             </div>
+
+
+            <div class="row d-flex justify-content-center">
+                <!--card 1-->
+                <div class="col-md-3 px-3">
+                    <div class="card card-bg">
+                        <img class="card-img-top" src="" alt="card che mostra una foto di giorgia con alcuni link ai suoi social">
+
+                        <div class="card-body card-border">
+                          <h3 class="card-title dark-text text-center">Giorgia Paparazzo</h3>
+                          <p class="card-text dark-text text-center">Informatica</p>
+                          <a href="#" class=""></a> <!--icone link social-->
+                        </div>
+
+                      </div>
+                </div>
+
+                <!-- gonna have to do smth like this: row1 with 3col / row2 with 3col > hides on sm and gets swapped by a carousel -->
+
+            </div>
+
         </section>
 
 
