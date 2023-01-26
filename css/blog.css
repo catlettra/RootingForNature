@@ -25,7 +25,14 @@
 } 
 .dark{ 
     background-color: var(--bs-bg-light-dark); 
-} 
+}
+
+
+
+
+
+
+/****** css vecchio carosello *****/
 .light-card{ 
     background-color: var(--bs-light-body-color) ;  
 } 
@@ -123,21 +130,17 @@ h4 {
     
 }
 
-.card-body {
+/*.card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.button-card {
-
 }
   
 .card img {
     padding-top: 1.5rem; 
     padding-left: 1rem; 
     padding-right: 1rem; 
-}
+}*/
 
 .card {
     margin: 0 0.5em;
@@ -151,6 +154,32 @@ h4 {
 }
 .carousel-inner {
     padding: 1em;
+}
+
+
+/****** css nuovo carosello *****/
+
+.card-carousel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #F2EACB;
+    padding: 20px;
+    margin: 1rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    height: 155px;
+}
+
+.cta-card {
+    text-align: center;
 }
   
  
@@ -174,20 +203,27 @@ h4 {
  
     .text-article { 
         order:3; 
-    } 
+    }
 
-    .card img {
-        height: 11em;
-      }
+    .card {
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .card-text {
+        height: 110px;
+    }
+
+    .card-carousel {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
 } 
  
 @media screen and (min-width:768px) { 
     .wrap-article { 
         height: 573px; 
     }
-
-    .card img {
-        height: 11em;
-      }
     
 }
