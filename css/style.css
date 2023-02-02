@@ -126,17 +126,8 @@ footer a {
     padding-right: 1em;
 }
 
-@media (min-width: 768px){
-    .mobile-display{
-        display: none;
-    }
-}
 
 @media (max-width: 767px){
-    .desktop-display{
-        display: none !important;
-    }
-
     .divHiveImg {
         display: none;
     }
