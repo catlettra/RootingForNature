@@ -115,7 +115,6 @@ section {
     --bs-navbar-color: var(--bs-light-body-color);
     --bs-navbar-brand-hover-color: #fff;
     font-family: 'Inconsolata', monospace;
-    position: fixed;
     width: 100%;
     background-color: var(--bs-bg-dark-green);
 }
