@@ -48,8 +48,12 @@
     border-radius: 10px;
 }
 
-.card-bg{
+.card-bg-white{
     background-color: var( --bs-light-body-color);
+}
+
+.card-bg-green{
+    background-color: var( --bs-custom-primary);
 }
 
 .dark-text{
