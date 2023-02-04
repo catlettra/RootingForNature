@@ -162,8 +162,12 @@ footer a {
 .footer-icon {
     height: 2em;
     padding-right: 1em;
+    transition: transform .2s;
 }
 
+.footer-icon:hover {
+    transform: scale(1.2);
+}
 
 @media (max-width: 767px){
     .row {
