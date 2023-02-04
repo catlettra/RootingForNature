@@ -175,21 +175,22 @@ footer a {
 
 .divHiveImg {
     position:relative; 
-    overflow: hidden;
 }
 
 .hiveRight {
     position:absolute; 
-    left:95% 
+    right:0;
+    z-index: 1;
 }
 
 .hiveLeft {
     position:absolute; 
-    left:5% 
+    left:0;
+    z-index: 1;
 }
 
 .divHiveImg img { 
-    margin-left:-50%; 
+    /*margin-left:-50%;*/
     margin-top:-40%; 
     width:150px
 }
