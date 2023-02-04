@@ -9,7 +9,7 @@
     background-image: url(../img/about-landing.jpg);
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
 }
 
 .container-fluid{
@@ -44,6 +44,11 @@
     transform: scale(0.9)
 }
 
+.card{
+    min-height: 30em;
+    border-radius: 10px;
+}
+
 .card-border{
     border-radius: 10px;
 }
@@ -60,3 +65,7 @@
     color: var(--bs-bg-dark-green);
 }
 
+.card-icon{
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
