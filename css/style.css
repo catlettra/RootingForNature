@@ -52,6 +52,7 @@ h3 {
 .subtitle {
     font-family: 'Inconsolata';
     font-size: 1.5rem;
+    color: var(--bs-custom-primary);
 }
 
 .pretitle {
@@ -70,6 +71,29 @@ h3 {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+@media (max-width: 767px){
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
+    
+    .subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .pretitle, .subtitle {
+        font-size: 1.25rem;
+    }
 }
 
 .secondary-color {
@@ -105,6 +129,8 @@ section {
     --bs-navbar-color: var(--bs-light-body-color);
     --bs-navbar-brand-hover-color: #fff;
     font-family: 'Inconsolata', monospace;
+    width: 100%;
+    background-color: var(--bs-bg-dark-green);
 }
 
 .navbar-brand{
@@ -139,21 +165,8 @@ footer a {
     padding-right: 1em;
 }
 
-@media (min-width: 768px){
-    .mobile-display{
-        display: none;
-    }
-}
 
 @media (max-width: 767px){
-    .desktop-display{
-        display: none !important;
-    }
-
-    .divHiveImg {
-        display: none;
-    }
-
     .row {
         margin-right: 0em;
         margin-left: 0em;
