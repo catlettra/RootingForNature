@@ -119,3 +119,24 @@ footer a {
     height: 2em;
     padding-right: 1em;
 }
+.divHiveImg {
+    position:relative; 
+}
+
+.hiveRight {
+    position:absolute; 
+    right:0;
+    z-index: 1;
+}
+
+.hiveLeft {
+    position:absolute; 
+    left:0;
+    z-index: 1;
+}
+
+.divHiveImg img { 
+    /*margin-left:-50%;*/
+    margin-top:-40%; 
+    width:150px
+}
