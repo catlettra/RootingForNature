@@ -153,10 +153,6 @@ footer a {
 
 
 @media (max-width: 767px){
-    .divHiveImg {
-        display: none;
-    }
-
     .row {
         margin-right: 0em;
         margin-left: 0em;
