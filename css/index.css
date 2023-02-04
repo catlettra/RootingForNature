@@ -1,0 +1,79 @@
+.hero-home {
+    background-image: url("../img/landing-home.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay;
+}
+
+.hero-text {
+    font-size: 1.87rem;
+}
+
+/* sm breackpoint */
+@media (max-width: 575.98px) {
+    .hero-text {
+        font-size: 1rem;
+    }
+}
+
+.w-section {
+    background-image: url("../img/extended-hive.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 991px){
+    .w-section {
+        background-image: none;
+    }
+}
+
+.home-w-titles {
+    font-size: 6em;
+    font-family: 'ProcrastinatingPixie';
+    transition: text-shadow 0.5s ease-in;
+}
+.home-w-titles:hover {
+    text-shadow: 0 0 0.3em #F59927, 0 0 0.3em #F59927, 0 0 0.3em #F59927;
+    transition: linear 2s ease-in;
+
+}
+
+@media (max-width: 991px){
+    .home-w-titles {
+        font-size: 2em;
+    }
+}
+
+.leaf-title {
+    padding: 0px 10px 20px 0px;
+}
+
+.home-section-images{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.home-section-icon-height {
+    height: 7em;
+    margin: 1.5em 0em;
+}
+
+.home-section-icon-width {
+    margin: 1.5em 0em;
+    width: 13em;
+}
+
+.drone-home-img {
+    margin: 1.5em 0em;
+    width: 15em;
+}
+
+img.extended-hive {
+    width: 50%;
+    z-index: -1;
+}
+
