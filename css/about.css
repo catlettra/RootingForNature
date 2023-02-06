@@ -41,7 +41,7 @@
 
 /* the leaves next to h2 are smaller than the one above the home h1, but instead of downloading another pic i just scaled that one and it works just fine*/
 .leaf-h2{
-    transform: scale(0.9)
+    transform: scale(0.9);
 }
 
 .card{
@@ -81,4 +81,20 @@
 
 .card-text-slider{
     font-size: 4vw;
+}
+
+.slick-slider{
+    background-color: var( --bs-bg-light-green);
+}
+
+.card-icon:hover{
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
+.card-icon-slider{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 20%;
+    width: 20%;
 }
