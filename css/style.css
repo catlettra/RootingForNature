@@ -129,7 +129,7 @@ section {
     --bs-navbar-brand-hover-color: #fff;
     font-family: 'Inconsolata', monospace;
     width: 100%;
-    background-color: var(--bs-bg-dark-green);
+    background-color: #252524;
 }
 
 .navbar-brand{
