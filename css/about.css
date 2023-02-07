@@ -16,10 +16,15 @@
     padding: 0;
 }
 
-.row{
-    margin-top: 0em;
-    margin-right: 0em;
-    margin-left: 0em;
+
+.row, col {
+    margin-top: 0em !important;
+    margin-right: 0em !important;
+    margin-left: 0em !important;
+    padding-top: 0em !important;
+    padding-right: 0em !important;
+    padding-left: 0em !important;
+
 }
 
 .form-control{
@@ -94,7 +99,7 @@
 }
 
 .card-icon:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     transition-duration: 0.3s;
 }
 
