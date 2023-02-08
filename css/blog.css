@@ -218,6 +218,10 @@ h4 {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    
+    .second-article {
+        flex-direction: column-reverse;
+    }
 
 } 
  
