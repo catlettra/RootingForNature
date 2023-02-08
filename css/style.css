@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inconsolata:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-@import url('index.css');
 @import url('about.css');
 @import url('blog.css');
 @import url('dicono.css');
-@import url('prodotti.css');
 @import url('mission.css');
 @import url('articoli.css');
 
@@ -31,6 +29,12 @@
     --bs-link-color: var(--bs-light-body-color);
     --bs-link-hover-color: #fff;
     --bs-secondary-rgb: var(--bs-secondary-custom-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -202,7 +206,6 @@ footer a {
 }
 
 .divHiveImg img { 
-    /*margin-left:-50%;*/
     margin-top:-40%; 
     width:150px
 }
@@ -210,5 +213,210 @@ footer a {
 @media (max-width: 767px){
     .divHiveImg {
         display: none; 
+    }
+}
+
+
+/* HOME */
+
+.hero-home {
+    background-image: url("../img/landing-home.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay;
+}
+
+.hero-text {
+    font-size: 1.87rem;
+}
+
+/* sm breackpoint */
+@media (max-width: 575.98px) {
+    .hero-text {
+        font-size: 1rem;
+    }
+}
+
+.w-section {
+    background-image: url("../img/extended-hive.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width: 991px){
+    .w-section {
+        background-image: none;
+    }
+}
+
+.home-w-titles {
+    font-size: 6em;
+    font-family: 'ProcrastinatingPixie';
+    transition: text-shadow 0.5s ease-in;
+}
+.home-w-titles:hover {
+    text-shadow: 0 0 0.3em #F59927, 0 0 0.3em #F59927, 0 0 0.3em #F59927;
+    transition: linear 2s ease-in;
+
+}
+
+@media (max-width: 991px){
+    .home-w-titles {
+        font-size: 2em;
+    }
+}
+
+.leaf-title {
+    padding: 0px 10px 20px 0px;
+}
+
+.home-section-images{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.home-section-icon-height {
+    height: 7em;
+    margin: 1.5em 0em;
+}
+
+.home-section-icon-width {
+    margin: 1.5em 0em;
+    width: 13em;
+}
+
+.drone-home-img {
+    margin: 1.5em 0em;
+    width: 15em;
+}
+
+img.extended-hive {
+    width: 50%;
+    z-index: -1;
+}
+
+
+/* PRODOTTI */
+
+.container-fluid {
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+.header-prodotti {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockquote-footer {
+    color: #f2eacba5;
+}
+
+.justify-content-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contattaci {
+    background-color: var(--bs-light-body-color);
+}
+
+.header-rfn {
+    position: relative;
+}
+
+
+
+@media screen and (max-width:767px) {
+    
+    .header-rfn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-rfn01, .title-rfn02 {
+        order:1;
+    }
+
+    .title-rfn02 {
+        text-align: right;
+    }
+
+    .img-rfn {
+        order: 2;
+    }
+
+    .rfn02-align {
+        left: 0;
+    }
+
+    .drone-sm-png {
+        position: absolute;
+        width: 40vw;
+        right: 0;
+        top: 7rem;
+    }
+
+    .rfn01-specifiche {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .icon-contattaci {
+        width: 8em;
+    }
+
+    .dark-text {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .justify-content-end {
+    display: flex;
+    justify-content: end;
+    }
+
+    .img-background1 {
+        background-image: url("../img/img-bg-rfn01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .img-background2 {
+        background-image: url("../img/img-bg-rfn02.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .drone-lg-png {
+        position: absolute;
+        width: 50vw;
+        max-width: 700px;
+        min-width: 600px;
+    }
+
+    .rfn02-align {
+        right: 0;
+    }
+
+    .rfn01-intro, .rfn02-intro {
+        height: 46em;
+        display: flex;
+    }
+
+    .rfn01-specifiche {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .wrap-contattaci {
+        height: 733px;
+        display: flex;
+        justify-content: space-around;
     }
 }
