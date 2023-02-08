@@ -3,6 +3,7 @@
 @import url('about.css');
 @import url('blog.css');
 @import url('dicono.css');
+@import url('prodotti.css');
 @import url('mission.css');
 @import url('articoli.css');
 
@@ -35,6 +36,7 @@
 h1 {
     font-family: 'Audiowide';
     font-size: 3.65rem;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -56,6 +58,18 @@ h3 {
 .pretitle {
     font-family: 'Inconsolata';
     font-size: 1.5rem;
+    color: var(--bs-custom-primary)
+}
+
+.secondary-color {
+    color: var(--bs-secondary-rgb);
+}
+
+.dark-text {
+    color: var(--bs-bg-dark-green)
+}
+
+.uppercase {
     text-transform: uppercase;
 }
 
@@ -178,16 +192,18 @@ footer a {
 
 .hiveRight {
     position:absolute; 
-    right: 0;
+    right:0;
+    z-index: 1;
 }
 
 .hiveLeft {
     position:absolute; 
-    left:0; 
+    left:0;
+    z-index: 1;
 }
 
 .divHiveImg img { 
-    /* margin-left:-50%;  */
+    /*margin-left:-50%;*/
     margin-top:-40%; 
     width:150px
 }
