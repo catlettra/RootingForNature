@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Inconsolata:wght@400;600;700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import url('about.css');
-@import url('blog.css');
 @import url('dicono.css');
 @import url('mission.css');
 @import url('articoli.css');
@@ -356,11 +355,6 @@ img.extended-hive {
         top: 7rem;
     }
 
-    .rfn01-specifiche {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
     .icon-contattaci {
         width: 8em;
     }
@@ -403,11 +397,6 @@ img.extended-hive {
     .rfn01-intro, .rfn02-intro {
         height: 46em;
         display: flex;
-    }
-
-    .rfn01-specifiche {
-        padding-top: 100px;
-        padding-bottom: 100px;
     }
     
     .wrap-contattaci {
