@@ -1,16 +1,23 @@
 $(document).ready(function (){
 
-$('.hero-text').waypoint(function(direction) {
-    $('.hero-text').addClass('animate__animated animate__fadeInDown');
-}, {
-    offset: '50%'
-});
+    $(window).scroll(function () {
+        $('.hero-text').each(function (i) {
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() * 0.3);
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if (bottom_of_window > bottom_of_object) {
+                $(this).addClass('animate__animated animate__fadeInDown');
+            }
+        })
+    });
 
-$('.section-w').waypoint(function(direction) {
-    $('.section-w').addClass('animate__animated animate__slideInLeft'); 
-}, {
-    offset: '50%' 
-});
-
+    $(window).scroll(function () {
+        $('.section-w').each(function (i) {
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight() * 0.3);
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if (bottom_of_window > bottom_of_object) {
+                $(this).addClass('animate__animated animate__slideInLeft');
+            }
+        })
+    });
 
 });
