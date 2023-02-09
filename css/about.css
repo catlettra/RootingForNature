@@ -1,3 +1,4 @@
+/* About page has a text of a different size from pretitle and subtitle, so I created a custom class */
 .inconsolata_custom {
     font-family: 'Inconsolata';
     font-size: 1.13rem;
@@ -45,6 +46,14 @@
     color: var(--bs-custom-primary);
 }
 
+.fixp1{
+    padding-left: 0;
+}
+
+.fixp2{
+    padding-right: 0;
+}
+
 .justify-content-space-between{
     display: flex;
     justify-content: space-between;
@@ -76,27 +85,29 @@
 }
 
 .card-icon{
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 22%;
-    width: 22%;
+    padding-left: 6%;
+    padding-right: 6%;
+    height: 25%;
+    width: 25%;
 }
 
 .card-icon-slider{
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 70%;
-    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 78%;
+    width: 78%;
 }
 
 .card-title-about{
     font-size: 1.7vw;
-    text-transform: capitalize;
+}
+
+.card-text-about{
+    font-size: 1vw;
 }
 
 .card-title-slider{
     font-size: 5.8vw;
-    text-transform: capitalize;
 }
 
 .card-text-slider{
