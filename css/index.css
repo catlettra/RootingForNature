@@ -53,7 +53,7 @@
 }
 
 .home-section-images{
-    width: 90%;
+    width: 98%;
     border-radius: 5px;
 }
 
@@ -72,8 +72,4 @@
     width: 15em;
 }
 
-img.extended-hive {
-    width: 50%;
-    z-index: -1;
-}
 
