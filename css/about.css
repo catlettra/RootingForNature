@@ -55,14 +55,6 @@
     transform: scale(0.9);
 }
 
-.fixp1{
-    padding-left: 0px;
-}
-
-.fixp2{
-    padding-right: 0px;
-}
-
 .card{
     border-radius: 10px;
 }
@@ -90,12 +82,21 @@
     width: 22%;
 }
 
-.card-title{
-    font-size: 1.8vw;
+.card-icon-slider{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 70%;
+    width: 70%;
+}
+
+.card-title-about{
+    font-size: 1.7vw;
+    text-transform: capitalize;
 }
 
 .card-title-slider{
-    font-size: 5.5vw;
+    font-size: 5.8vw;
+    text-transform: capitalize;
 }
 
 .card-text-slider{
@@ -111,11 +112,5 @@
     transition-duration: 0.3s;
 }
 
-.card-icon-slider{
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 70%;
-    width: 70%;
-}
 
 
