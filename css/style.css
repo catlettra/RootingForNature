@@ -135,7 +135,8 @@ section {
     --bs-nav-link-hover-color: var(--bs-btn-color);
 }
 
-footer{width:100%;
+footer{
+    width:100%;
     background-color: #252524;
     padding: 5em 0em 0em 1em;
     font-size: 0.8rem
@@ -268,7 +269,7 @@ footer a {
 }
 
 .home-section-images{
-    width: 90%;
+    width: 98%;
     border-radius: 5px;
 }
 
