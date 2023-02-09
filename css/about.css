@@ -1,0 +1,127 @@
+.inconsolata_custom {
+    font-family: 'Inconsolata';
+    font-size: 1.13rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.bg-landing{
+    background-image: url(../img/about-landing.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.divHiveImg-about img { 
+    /* margin-left:-50%;  */
+    margin-top: -170%; 
+    width: 150px
+}
+
+.row, col {
+    margin-top: 0em !important;
+    margin-right: 0em !important;
+    margin-left: 0em !important;
+    padding-top: 0em !important;
+    padding-right: 0em !important;
+    padding-left: 0em !important; 
+
+}
+
+.form-control{
+    background-color: var(--bs-bg-light-green) !important;
+    border: 1px solid var(--bs-light-body-color); 
+    color: var(--bs-light-body-color);
+}
+
+.message-text{
+    height: 320px;
+}
+
+.images-radius{
+    border-radius: 5px;
+}
+
+/* Non ho visto primary-color nel file style.css e non so se va creato ma nel mentre lo userò*/
+.primary-color{
+    color: var(--bs-custom-primary);
+}
+
+.justify-content-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* the leaves next to h2 are smaller than the one above the home h1, but instead of downloading another pic i just scaled that one and it works just fine*/
+.leaf-h2{
+    transform: scale(0.9);
+}
+
+.fixp1{
+    padding-left: 0px;
+}
+
+.fixp2{
+    padding-right: 0px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card-carousel{
+    border-radius: 10px;
+}
+
+.card-bg-white{
+    background-color: var( --bs-light-body-color);
+}
+
+.card-bg-green{
+    background-color: var( --bs-custom-primary);
+}
+
+.dark-text{
+    color: var(--bs-bg-dark-green);
+}
+
+.card-icon{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 22%;
+    width: 22%;
+}
+
+.card-title{
+    font-size: 1.8vw;
+}
+
+.card-title-slider{
+    font-size: 5.5vw;
+}
+
+.card-text-slider{
+    font-size: 4vw;
+}
+
+.slick-slide img {
+    display: inherit !important;
+}
+
+.card-icon:hover{
+    transform: scale(1.15);
+    transition-duration: 0.3s;
+}
+
+.card-icon-slider{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 70%;
+    width: 70%;
+}
+
+
