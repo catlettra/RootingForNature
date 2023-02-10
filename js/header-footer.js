@@ -17,8 +17,8 @@ const htmlMenu = `<div class="container">
 
 menu.innerHTML += htmlMenu;
 
-var footer = document.querySelector('#footer');
-var htmlFooter = `<div class="container d-none d-md-flex flex-column justify-content-between footer-container">
+const footer = document.querySelector('#footer');
+const htmlFooter = `<div class="container d-none d-md-flex flex-column justify-content-between footer-container">
 <div class="row">
     <div class="col rfn">
         <p>ROOTING FOR NATURE</p>
@@ -63,3 +63,44 @@ var htmlFooter = `<div class="container d-none d-md-flex flex-column justify-con
 </div>
 </div>`;
 footer.innerHTML += htmlFooter;
+
+
+const contacts = document.querySelector('#contacts');
+const htmlContacts = `<div class="container-fluid d-none d-lg-flex light-bg justify-content-center">
+    <div class="row col-8">
+        <div class="col">
+            <img src="img/contact-img.svg" alt="contact us" class="home-section-images animate-contacts" />
+        </div>
+        <div class="col align-self-center">
+            <div class="d-flex justify-content-start">
+                <h2>CONTATTACI</h2>
+            </div>
+            <p><b>Sei interessatə ai nostri servizi?</b><br>
+
+                Contattaci direttamente compilando l&apos;apposito form per ottenere un preventivo. Il
+                nostro team &egrave; pronto a guidarti in un percorso verso la nostra realt&agrave;
+                ecosostenibile, caratterizzata dalle tecnologie più all&apos;avanguardia pensate apposta per
+                te o per la tua azienda. <br><br>
+
+                Che aspetti? Il cambiamento &egrave; dietro l&apos;angolo!</p>
+            <a href="3_about.html" class="btn btn-primary">Ottieni un preventivo</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- mobile version -->
+<div class="container-fluid d-lg-none light-bg">
+    <div class="row  px-3">
+        <div class="text-center">
+            <h2>CONTATTACI</h2>
+            <img src="img/contact-icon.svg" alt="icona sezione contattaci"
+                class="home-section-icon-height" />
+            <p><b>Sei interessatə ai nostri servizi?</b><br>
+                Contattaci direttamente compilando l&apos;apposito form per ottenere un preventivo.</p>
+            <a href="3_about.html" class="btn btn-primary">Ottieni un preventivo</a>
+        </div>
+    </div>
+</div>`;
+
+contacts.innerHTML += htmlContacts;
