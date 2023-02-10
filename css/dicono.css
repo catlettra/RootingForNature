@@ -6,11 +6,11 @@
 }
 
 
-/****** Intro DESKTOP *****/
+/****** DESKTOP LANDING PAGE *****/
 .intro-cover {
     width: 100%;
-    height:100vh;
-    background-image:url("../img/diconodinoi_intro.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    height:80vh;
+    background-image:url("../img/diconodinoi_intro.jpg");
     background-size: cover;
     background-position: center
 }
@@ -27,19 +27,16 @@
     padding-top: 0em !important;
     padding-right: 0em !important;
     padding-left: 0em !important; 
-
 }
 
 
 
-/****** Recensioni Carosello NUOVO  *****/
+/* REVIEWS CAROUSEL */
 
-.card {
-    border-radius:10px;
+.card-dicono {
     background-color:#F2EACB;
-    margin:0 1.6%;
-    width:328px; height: 534px;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    width:328px; 
+    height: 534px;
 }
 
 .card img {
@@ -58,8 +55,9 @@
 }
 
 .avatar {
-    width: 164px;
-    height: 164px;
+    width: 52%;
+    height: 52%;
+    padding-bottom: 5%;
 }
 
 .title_card{
@@ -73,15 +71,14 @@
     color: #2E302B;
 }
 
+.card_copy{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .card-carousel {
     display: flex;
     justify-content: space-between;
-}
-
-.card {
-    background-color: #F2EACB;
-    padding: 20px;
-    margin: 1rem;
 }
 
 .card-title {
@@ -136,7 +133,8 @@
 }
 
 
-/****** ARTICOLI *****/
+/* ARTICLES */
+
 .section_content{
     width: 100%;
     height: auto;
