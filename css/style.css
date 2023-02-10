@@ -237,6 +237,12 @@ footer a {
     background-blend-mode: overlay;
 }
 
+@media (max-width: 767px){
+    .hero-home {
+        height: 50vh;
+    }
+}
+
 .hero-text {
     font-size: 1.87rem;
 }
@@ -244,7 +250,7 @@ footer a {
 /* sm breackpoint */
 @media (max-width: 575.98px) {
     .hero-text {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -261,7 +267,7 @@ footer a {
     }
 
     .home-w-titles {
-        font-size: 2em;
+        font-size: 2em !important;
     }
 }
 
@@ -270,6 +276,7 @@ footer a {
     font-family: 'ProcrastinatingPixie';
     transition: text-shadow 0.5s ease-in;
 }
+
 .home-w-titles:hover {
     text-shadow: 0 0 0.3em #F59927, 0 0 0.3em #F59927, 0 0 0.3em #F59927;
     transition: linear 2s ease-in;
@@ -550,6 +557,12 @@ img.extended-hive {
     height: 60vh;
     background-blend-mode: overlay;
     
+}
+
+@media (max-width: 767px){
+    .hero-mission-1, .hero-mission-2 {
+        height: 30vh;
+    }
 }
 
 /* =============================
