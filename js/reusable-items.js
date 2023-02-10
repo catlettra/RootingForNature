@@ -23,9 +23,9 @@ const htmlFooter = `<div class="container d-none d-md-flex flex-column justify-c
 <div class="row">
     <div class="col rfn">
         <p>ROOTING FOR NATURE</p>
-        <div><a href="#"><img class="footer-icon" src="img/facebook-icon.png"></a> <a href="#"><img
-                    class="footer-icon" src="img/youtube-icon.png"></a> <a href="#"><img
-                    class="footer-icon" src="img/instagram-icon.png"></a></div>
+        <div><a href="#"><img class="footer-icon" src="img/facebook-icon.png" alt="collegamento a facebook"></a> <a href="#"><img
+                    class="footer-icon" src="img/youtube-icon.png" alt="collegamento a youtube"></a> <a href="#"><img
+                    class="footer-icon" src="img/instagram-icon.png" alt="collegamento a instagram"></a></div>
     </div>
     <div class="col text-center"><a href="index.html">Home</a> | <a href="1_mission.html">Mission</a> |
         <a href="2_prodotti.html">Prodotti</a> | <a href="3_about.html">About</a> | <a
