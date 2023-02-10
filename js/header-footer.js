@@ -69,7 +69,7 @@ const contacts = document.querySelector('#contacts');
 const htmlContacts = `<div class="container-fluid d-none d-lg-flex light-bg justify-content-center">
     <div class="row col-8">
         <div class="col">
-            <img src="img/contact-img.svg" alt="contact us" class="home-section-images animate-contacts" />
+            <img src="img/drone-contattaci.png" alt="contact us" class="home-section-images animate-contacts" />
         </div>
         <div class="col align-self-center">
             <div class="d-flex justify-content-start">
