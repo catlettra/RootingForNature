@@ -223,10 +223,6 @@ footer a {
 
 }
 
-.opacity-100 {
-    opacity: 0;
-}
-
 /* =============================
     HOME
    ============================= */
@@ -559,6 +555,7 @@ img.extended-hive {
     background-size: cover;
     height: 60vh;
     background-blend-mode: overlay;
+    background-attachment: fixed;
     
 }
 
