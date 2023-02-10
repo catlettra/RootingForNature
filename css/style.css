@@ -520,3 +520,27 @@ img.extended-hive {
     }
     
 }
+
+/* =============================
+    MISSION
+   ============================= */
+
+   .hero-mission-1 {
+    background-image: url("../img/mission-alberi.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-blend-mode: overlay;
+    
+}
+
+.hero-mission-2 {
+    background-image: url("../img/mission-paesaggio.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    background-blend-mode: overlay;
+    
+}
