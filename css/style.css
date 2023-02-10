@@ -115,8 +115,6 @@ section {
     --bs-btn-hover-border-color: none;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-bg: var(--bs-custom-primary-hover);
-    padding-left: 3.5%;
-    padding-right: 3.5%;
 }
 
 .navbar {
