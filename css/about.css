@@ -67,7 +67,8 @@
 .card{
     border-radius: 10px;
     width: 97%;
-    height: 97%;
+    height: 100%;
+    padding-bottom: 5%;
 }
 
 .card-carousel{
